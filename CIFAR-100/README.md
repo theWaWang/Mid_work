@@ -10,9 +10,9 @@ practice on cifar100 using pytorch
 ## Requirements
 
 This is my experiment eviroument
-- python3.6
-- pytorch1.6.0+cu101
-- tensorboard 2.2.2(optional)
+- python3.7
+- pytorch1.10.0+cu113
+- tensorboard 2.8.0(optional)
 
 
 ## Usage
