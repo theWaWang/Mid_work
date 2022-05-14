@@ -4,8 +4,8 @@ practice on cifar100 using pytorch
 原作者地址：https://github.com/weiaicunzai/pytorch-cifar100  
   
 本实验通过训练得到模型（baseline，cutout，mixup，cutmix）百度网盘链接：  
-链接：https://pan.baidu.com/s/1sS6_pzqaB99Lteh_esUqYA 
-提取码：eswg  
+链接：https://pan.baidu.com/s/1vLqMysZgVP4qv2MfEz5_TQ 
+提取码：2fwn  
 
 ## Requirements
 
