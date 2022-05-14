@@ -16,8 +16,8 @@ torch == 1.2.0
 
 ## 文件下载
 训练所需的预训练模型yolo_weights.pth及本实验训练得到模型均可以在百度云下载。  
-链接: https://pan.baidu.com/s/1hCV4kg8NyStkywLiAeEr3g   
-提取码: 6da3 
+链接：https://pan.baidu.com/s/1sS6_pzqaB99Lteh_esUqYA 
+提取码：eswg
 
 ## 训练步骤
 ### a、训练VOC07+12数据集
