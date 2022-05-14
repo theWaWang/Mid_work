@@ -17,8 +17,8 @@ torch == 1.2.0
 ## 文件下载
 训练所需的预训练voc_weights_resnet.pth；本实验训练得到模型best_epoch_weights.pth及last_epoch_weights.pth均可以在百度云下载。  
 voc_weights_resnet.pth是resnet为主干特征提取网络用到的；   
-链接: https://pan.baidu.com/s/1S6wG8sEXBeoSec95NZxmlQ      
-提取码: 8mgp    
+链接：https://pan.baidu.com/s/1sS6_pzqaB99Lteh_esUqYA 
+提取码：eswg  
 
 
 ## 训练步骤
