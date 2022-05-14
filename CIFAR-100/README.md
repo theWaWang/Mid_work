@@ -107,7 +107,7 @@ Normally, the weights file with the best accuracy would be written to the disk w
 ### 5. test the model
 本实验通过训练得到模型（baseline，cutout，mixup，cutmix）百度网盘链接：  
 链接：https://pan.baidu.com/s/1sS6_pzqaB99Lteh_esUqYA 
-提取码：eswg 
+提取码：eswg  
 Test the model using test.py
 ```bash
 $ python test.py -net vgg16 -weights path_to_vgg16_weights_file
