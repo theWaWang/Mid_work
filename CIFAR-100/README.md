@@ -1,6 +1,7 @@
 # Pytorch-cifar100
 
 practice on cifar100 using pytorch
+原作者地址：https://github.com/weiaicunzai/pytorch-cifar100
 
 ## Requirements
 
