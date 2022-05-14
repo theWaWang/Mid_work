@@ -1,7 +1,7 @@
-### 实验一：使用Resnet18完成CIFAR-100上图像分类任务  
+###实验一：使用Resnet18完成CIFAR-100上图像分类任务  
 代码位于CIFAR-100目录下
 
 
-### 实验二：在VOC数据集上训练并测试Faster R-CNN和YOLO V3  
+###实验二：在VOC数据集上训练并测试Faster R-CNN和YOLO V3  
 Faster R-CNN代码位于Faster R-CNN目录下  
 YOLO V3代码位于Faster R-CNN目录下  
