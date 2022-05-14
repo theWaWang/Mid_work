@@ -35,20 +35,20 @@ $ tensorboard --logdir='runs' --port=6006 --host='localhost'
 ### 4. train the model
 You need to specify the net you want to train using arg -net
 
-```bash(baseline+vgg16)
-# use gpu to train vgg16
+```bash
+# use gpu to train vgg16 (baseline+vgg16)
 $ python train.py -net vgg16 -gpu
 ```  
-```bash(cutout+vgg16)
-# use gpu to train vgg16
+```bash
+# use gpu to train vgg16 (cutout+vgg16)
 $ python train-cutout.py -net vgg16 -gpu
 ```  
-```bash(mixup+vgg16)
-# use gpu to train vgg16
+```bash
+# use gpu to train vgg16 (mixup+vgg16)
 $ python train-mixup.py -net vgg16 -gpu
 ```  
-```bash(cutmix+vgg16)
-# use gpu to train vgg16
+```bash
+# use gpu to train vgg16 (cutmix+vgg16)
 $ python train-cutmix.py -net vgg16 -gpu
 ```  
 
