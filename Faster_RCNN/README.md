@@ -15,9 +15,8 @@
 torch == 1.2.0
 
 ## 文件下载
-训练所需的voc_weights_resnet.pth或者voc_weights_vgg.pth以及主干的网络权重可以在百度云下载。  
-voc_weights_resnet.pth是resnet为主干特征提取网络用到的；  
-voc_weights_vgg.pth是vgg为主干特征提取网络用到的；   
+训练所需的预训练voc_weights_resnet.pth；本实验训练得到模型best_epoch_weights.pth及last_epoch_weights.pth均可以在百度云下载。  
+voc_weights_resnet.pth是resnet为主干特征提取网络用到的；   
 链接: https://pan.baidu.com/s/1S6wG8sEXBeoSec95NZxmlQ      
 提取码: 8mgp    
 
@@ -34,7 +33,7 @@ VOC数据集下载地址如下，里面已经包括了训练集、测试集、�
 修改voc_annotation.py里面的annotation_mode=2，运行voc_annotation.py生成根目录下的2007_train.txt和2007_val.txt。   
 
 3. 开始网络训练   
-train.py的默认参数用于训练VOC数据集，直接运行train.py即可开始训练。   
+train.py的默认参数用于训练VOC数据集，直接运行train.py即可开始训练。若要修改参数需进入train.py中查看注释修改。   
 
 4. 训练结果预测   
 训练结果预测需要用到两个文件，分别是frcnn.py和predict.py。我们首先需要去frcnn.py里面修改model_path以及classes_path，这两个参数必须要修改。   
